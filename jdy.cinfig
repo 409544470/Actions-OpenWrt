@@ -1,0 +1,38 @@
+CONFIG_TARGET_ipq40xx=y
+CONFIG_TARGET_ipq40xx_DEVICE_p2w_r619ac-128m=y
+CONFIG_TARGET_BOARD="ipq40xx"
+# CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_frpc=m
+# CONFIG_PACKAGE_iptables-mod-ipsec is not set
+# CONFIG_PACKAGE_kmod-crypto-cbc is not set
+# CONFIG_PACKAGE_kmod-crypto-deflate is not set
+# CONFIG_PACKAGE_kmod-crypto-des is not set
+# CONFIG_PACKAGE_kmod-crypto-echainiv is not set
+# CONFIG_PACKAGE_kmod-crypto-md5 is not set
+# CONFIG_PACKAGE_kmod-ipsec is not set
+# CONFIG_PACKAGE_kmod-ipt-ipsec is not set
+# CONFIG_PACKAGE_kmod-iptunnel6 is not set
+# CONFIG_PACKAGE_luci-app-arpbind is not set
+CONFIG_PACKAGE_luci-app-frpc=m
+# CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
+CONFIG_PACKAGE_luci-app-nps=m
+CONFIG_PACKAGE_luci-app-socat=m
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-nps-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-socat-zh-cn=m
+CONFIG_PACKAGE_npc=m
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs-client is not set
+CONFIG_PACKAGE_socat=m
+# CONFIG_PACKAGE_strongswan is not set
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wol is not set
